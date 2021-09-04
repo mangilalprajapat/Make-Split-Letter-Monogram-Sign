@@ -1,0 +1,342 @@
+ @font-face {
+    font-family: 'Book Antiqua';
+    src: url('../fonts/BookAntiqua.eot');
+    src: url('../fonts/BookAntiqua.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BookAntiqua.woff2') format('woff2'),
+        url('../fonts/BookAntiqua.woff') format('woff'),
+        url('../fonts/BookAntiqua.ttf') format('truetype'),
+        url('../fonts/BookAntiqua.svg#BookAntiqua') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+ 
+ 
+ 
+ .sticky-barre{
+   opacity:1!important; 
+  }
+  .knowmore{
+   text-align:center; 
+  }
+  .btn{
+   text-align:center;
+    width:50%;
+    background:#FFF;
+    color:#000;
+    border : 1px solid #000;
+  }
+  .btn:hover{
+   background:#FFF!important;
+    border : 1px solid #000!important;
+    color:#000;
+    opacity:0.5;
+  }
+  .left-popup img{
+    width:500px;
+    height:500px;
+  }
+  .modall {
+    display: none;
+    position: fixed;
+    z-index: 99999999999;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  .modall-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+  }
+  @media screen and (max-width: 1018px){
+    .modall-content {
+      width: 90%;
+    }
+    .left-popup {
+      width: 100%;
+      padding: 20px 0;
+      float: none;
+    }
+    .left-popup img{
+      width:250px;
+      height:250px;
+    }
+  }
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -25px;
+    margin-right: -15px;
+    cursor: pointer;
+  }
+  .price-regular-pop{
+    text-align: center;
+    font-size:24px;
+  }
+  .left-popup {
+    display: inline-block;
+    text-align:center;
+    width: 100%;
+  }
+  .product-title h2 {
+    text-transform:uppercase;
+    color: #e82f03;
+    font-family: Lato;
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+  }
+  .regularprice {
+    text-decoration: line-through;
+    color: #c62537;
+    display: inline;
+  }
+  
+  
+  
+  .savings{
+   border:1px solid #000;
+    padding : 5px 10px;
+    border-radius:3px;
+  }
+  .preview-modal {
+    z-index: 100000;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .preview-modal{
+   display:none;
+  }
+  .preview-content {
+    position: absolute;
+    top: 3%;
+    width: 40%;
+    background-color: white;
+    text-align: center;
+  }
+  .preview-close {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 0px 10px 0px;
+    margin-right: 20px;
+    text-align: right;
+  }
+  .preview-header {
+    color: rgb(100, 100, 100);
+    font-family: 'Book Antiqua';
+    font-size: 20pt;
+    margin-bottom: 10px;
+  }
+  #preview-canvas {
+    width: 100%;
+    height: 50%;
+  }
+  .preview-footer {
+    padding: 0px 40px 30px;
+    font-family: 'Book Antiqua';
+    color: red;
+  }
+    #preview-button {
+    color: #fff;
+    padding-top:9px;
+    padding-bottom:9px;
+    font-size: 12pt;
+    border: 2px solid #4D4D4D;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: bold;
+    text-align: center;
+    margin-top:5px;
+    background-color: #0a0a0a;
+  }
+
+  @media (max-width: 750px){
+    .preview-content {
+      top: 6%;
+    }
+    #preview-button{
+     width:100%; 
+    }
+  }
+  @media (max-width: 650px){
+    .preview-content {
+      width: 80%;
+    }
+  }
+  @media (max-width: 400px){
+    .preview-content {
+      width: 100%;
+      top: 6%;
+    }
+  }
+
+ .tt-swatches-container.tt-swatches-container-js {
+    display: flex;
+    flex-direction: row;
+ }
+
+ .tt-swatches-container.tt-swatches-container-js .tt-wrapper {
+    flex: 1 1 50%;
+    margin-bottom: -14px;
+    padding: 0 5px;
+ }
+  
+  .form-default .form-control {
+  
+
+  background: white;
+    
+    border: 1px solid #A0A0A0;
+    border-radius: 4px;
+    padding: 10px 4px;
+ }
+ .shopify-product-form {
+    padding-left: 7px;
+    padding-right: 3px;
+ } 
+  
+ .preview-button input {
+    background: #FEE777 !important;
+    border-radius: 5px;
+    font-weight: 500;
+ }  
+ .subsectionindex-section-subscribe {
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+ }
+  .subsectionindex-section-subscribe .tt-layout-newsletter02 form .btn {
+    
+    color: #ffffff;
+    background: #000000;width: 200px;
+ }
+  
+  
+ .subsectionindex-section-subscribe .tt-layout-newsletter02 form .btn:hover{ 
+  background: #000000!important;
+    border: 1px solid #000!important;
+    color: #fff;
+    opacity: 0.5;
+ }
+  div#shopify-section-index-section-iconbanners {
+    margin-top: -143px;
+ }
+  @media only screen and (max-width: 768px) {
+  div#shopify-section-index-section-iconbanners {
+    margin-top: -57px;
+ }
+ }
+  .tt-input-counter.style-01 input {
+    background: #fff;
+ }
+
+  {% if product.title == 'Monogramme Kingstey® - Métal Premium' %}
+   div#bcpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ #bcpo .bcpo-dd ul li {
+    text-decoration: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 10px 12px 11px 15px;
+    cursor: pointer;
+    border: 1px solid #A0A0A0;
+    border-radius: 4px;
+ }   
+  
+ @media screen and (max-width: 768px) {
+  #bcpo .bcpo-dd ul li {
+    text-decoration: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 10px 12px 11px 15px;
+    cursor: pointer;
+    border: 1px solid #A0A0A0;
+    border-radius: 4px;
+    width: unset !important;
+    min-width: 176px !important;
+    margin: 0px;
+ }
+ }  
+  
+ {% else %} 
+     div#bcpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     flex-wrap: wrap;
+ }
+ #bcpo .bcpo-dd ul li {
+    text-decoration: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 10px 12px 11px 15px;
+    cursor: pointer;
+    border: 1px solid #A0A0A0;
+    border-radius: 4px;
+ }
+  .selector-wrapper.bcpo-simple {
+    flex: 100%;
+ }
+  div#bcpo input, textarea {
+    min-width: 100% !important;
+ }
+ .single-option-selector {
+   
+    padding: 10px 12px 11px 15px !important;
+    height: 45px !important;
+ }  
+ @media screen and (max-width: 768px) {
+  
+  .selector-wrapper.bcpo-default {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+ }
+ .selector-wrapper.bcpo-default select {
+    min-width: 157px !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+ }  
+ } 
+ {% endif %}
+  
+ .preview-button input {
+    background: transparent !important;
+    border-radius: 5px;
+    font-weight: 500;
+    background: transparent;
+  color: #F26767 !important;
+    border-color: #F26767 !important;
+ }  

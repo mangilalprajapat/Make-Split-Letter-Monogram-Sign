@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Book Antiqua';
+    src: url('hinted-BookAntiqua-Bold.eot');
+    src: url('hinted-BookAntiqua-Bold.eot?#iefix') format('embedded-opentype'),
+        url('hinted-BookAntiqua-Bold.woff2') format('woff2'),
+        url('hinted-BookAntiqua-Bold.woff') format('woff'),
+        url('hinted-BookAntiqua-Bold.ttf') format('truetype'),
+        url('hinted-BookAntiqua-Bold.svg#BookAntiqua-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Book Antiqua';
+    src: url('hinted-BookAntiqua.eot');
+    src: url('hinted-BookAntiqua.eot?#iefix') format('embedded-opentype'),
+        url('hinted-BookAntiqua.woff2') format('woff2'),
+        url('hinted-BookAntiqua.woff') format('woff'),
+        url('hinted-BookAntiqua.ttf') format('truetype'),
+        url('hinted-BookAntiqua.svg#BookAntiqua') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
